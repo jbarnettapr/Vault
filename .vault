@@ -2,19 +2,19 @@ A__0.1.0: {
 	Name: A
 	Version: 0.1.0
 	Link: D:\VBA\Research\Xpac\A 0.1.0.xlsm
-	Mirror: https://github.com/jbarnettapr/Packages/raw/master/A 0.1.0.xlsm
+	Mirror: https://github.com/jbarnettapr/Vault/raw/main/A 0.1.0.xlsm
 }
 A__0.2.0: {
 	Name: A
 	Version: 0.2.0
 	Link: D:\VBA\Research\Xpac\A 0.2.0.xlsm
-	Mirror: https://github.com/jbarnettapr/Packages/raw/master/A 0.2.0.xlsm
+	Mirror: https://github.com/jbarnettapr/Vault/raw/main/A 0.2.0.xlsm
 }
 B__0.1.0: {
 	Name: B
 	Version: 0.1.0
 	Link: D:\VBA\Research\Xpac\B 0.1.0.xlsm
-	Mirror: https://github.com/jbarnettapr/Packages/raw/master/B 0.1.0.xlsm
+	Mirror: https://github.com/jbarnettapr/Vault/raw/main/B 0.1.0.xlsm
 	Dependencies: {
 		A: 0.1.0
 	}
@@ -23,7 +23,7 @@ B__0.1.1: {
 	Name: B
 	Version: 0.1.1
 	Link: D:\VBA\Research\Xpac\B 0.1.1.xlsm
-	Mirror: https://github.com/jbarnettapr/Packages/raw/master/B 0.1.1.xlsm
+	Mirror: https://github.com/jbarnettapr/Vault/raw/main/B 0.1.1.xlsm
 	Dependencies: {
 		A: 0.2.0
 	}
@@ -32,7 +32,7 @@ C__0.1.0: {
 	Name: C
 	Version: 0.1.0
 	Link: D:\VBA\Research\Xpac\C 0.1.0.xlsm
-	Mirror: https://github.com/jbarnettapr/Packages/raw/master/C 0.1.0.xlsm
+	Mirror: https://github.com/jbarnettapr/Vault/raw/main/C 0.1.0.xlsm
 	Dependencies: {
 		A: 0.1.0
 	}
@@ -41,7 +41,7 @@ C__0.2.0: {
 	Name: C
 	Version: 0.2.0
 	Link: D:\VBA\Research\Xpac\C 0.2.0.xlsm
-	Mirror: https://github.com/jbarnettapr/Packages/raw/master/C 0.2.0.xlsm
+	Mirror: https://github.com/jbarnettapr/Vault/raw/main/C 0.2.0.xlsm
 	Dependencies: {
 		A: 0.1.0
 		B: 0.1.1
