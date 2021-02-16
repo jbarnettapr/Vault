@@ -1,18 +1,24 @@
 A__0.1.0: {
 	Name: A
 	Version: 0.1.0
-	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\A__0.1.0.xlsm
+	Description: A
+	Tags: A
+	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\A__0.1.0.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/A__0.1.0.xlam
 }
 A__0.2.0: {
 	Name: A
 	Version: 0.2.0
-	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\A__0.2.0.xlsm
+	Description: A
+	Tags: A
+	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\A__0.2.0.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/A__0.2.0.xlam
 }
 B__0.1.0: {
 	Name: B
 	Version: 0.1.0
+	Description: B
+	Tags: B
 	Link: D:\VBA\Research\Xpac\B 0.1.0.xlsm
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/B__0.1.0.xlam
 	Dependencies: {
@@ -22,7 +28,9 @@ B__0.1.0: {
 B__0.1.1: {
 	Name: B
 	Version: 0.1.1
-	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\B__0.1.1.xlsm
+	Description: B
+	Tags: B
+	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\B__0.1.1.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/B__0.1.1.xlam
 	Dependencies: {
 		A: 0.2.0
@@ -31,6 +39,8 @@ B__0.1.1: {
 C__0.1.0: {
 	Name: C
 	Version: 0.1.0
+	Description: C
+	Tags: C
 	Link: D:\VBA\Research\Xpac\C 0.1.0.xlsm
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/C__0.1.0.xlam
 	Dependencies: {
@@ -40,11 +50,25 @@ C__0.1.0: {
 C__0.2.0: {
 	Name: C
 	Version: 0.2.0
-	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\C__0.2.0.xlsm
+	Description: C
+	Tags: C
+	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\C__0.2.0.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/C__0.2.0.xlam
 	Dependencies: {
 		A: 0.1.0
 		B: 0.1.1
+	}
+}
+Dave__0.1.0: {
+	Name: Dave
+	Version: 0.1.0
+	Description: A test package using C 0.2.0
+	Tags: Test, Demo
+	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\Dave.xlsm
+	Mirror: 
+	Dependencies: {
+	Dependencies: {
+		C: 0.2.0
 	}
 }
 
