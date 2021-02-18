@@ -1,24 +1,24 @@
 A__0.1.0: {
 	Name: A
 	Version: 0.1.0
-	Description: A
-	Tags: A
+	Description: First version of the demo package A.
+	Tags: A, Demo
 	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\A__0.1.0.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/A__0.1.0.xlam
 }
 A__0.2.0: {
 	Name: A
 	Version: 0.2.0
-	Description: A
-	Tags: A
+	Description: Second version of the demo package A.
+	Tags: A, Demo
 	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\A__0.2.0.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/A__0.2.0.xlam
 }
 B__0.1.0: {
 	Name: B
 	Version: 0.1.0
-	Description: B
-	Tags: B
+	Description: First version of the demo package B.
+	Tags: B, Demo
 	Link: D:\VBA\Research\Xpac\B 0.1.0.xlsm
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/B__0.1.0.xlam
 	Dependencies: {
@@ -28,8 +28,8 @@ B__0.1.0: {
 B__0.1.1: {
 	Name: B
 	Version: 0.1.1
-	Description: B
-	Tags: B
+	Description: Second version of the demo package B.
+	Tags: B, Demo
 	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\B__0.1.1.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/B__0.1.1.xlam
 	Dependencies: {
@@ -39,8 +39,8 @@ B__0.1.1: {
 C__0.1.0: {
 	Name: C
 	Version: 0.1.0
-	Description: C
-	Tags: C
+	Description: First version of the demo package C.
+	Tags: C, Demo
 	Link: D:\VBA\Research\Xpac\C 0.1.0.xlsm
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/C__0.1.0.xlam
 	Dependencies: {
@@ -50,8 +50,8 @@ C__0.1.0: {
 C__0.2.0: {
 	Name: C
 	Version: 0.2.0
-	Description: C
-	Tags: C
+	Description: Second version of the demo package C.
+	Tags: C, Demo
 	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\C__0.2.0.xlam
 	Mirror: https://github.com/jbarnettapr/Vault/raw/main/C__0.2.0.xlam
 	Dependencies: {
@@ -59,16 +59,3 @@ C__0.2.0: {
 		B: 0.1.1
 	}
 }
-Dave__0.1.0: {
-	Name: Dave
-	Version: 0.1.0
-	Description: A test package using C 0.2.0
-	Tags: Test, Demo
-	Link: C:\Users\JDBar\AppData\Local\Programs\Vault\Dave.xlsm
-	Mirror: 
-	Dependencies: {
-	Dependencies: {
-		C: 0.2.0
-	}
-}
-
